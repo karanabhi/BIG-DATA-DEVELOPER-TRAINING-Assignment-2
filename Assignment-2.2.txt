@@ -1,0 +1,23 @@
+start-all.sh
+
+vi max-temp.txt
+
+10-01-1990,06
+10-02-1990,07
+10-03-1990,15
+10-04-1990,17
+10-05-1990,17
+10-06-1990,15
+10-07-1990,14
+10-08-1990,10
+10-09-1990,10
+10-10-1990,07
+10-11-1990,05
+10-12-1990,02
+
+hadoop fs -put /home/acadgild/max-temp.txt /user/acadgild/hadoop
+hadoop fs -cat /user/acadgild/hadoop/max-temp.txt
+
+hadoop fs -chmod 770 /user/acadgild/hadoop/max-temp.txt
+
+
