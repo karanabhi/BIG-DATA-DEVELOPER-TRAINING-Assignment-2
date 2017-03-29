@@ -1,0 +1,7 @@
+start-all.sh
+
+hadoop fs -mkdir /user/acadgild/hadoop
+vi word-count.txt
+hadoop fs -put /home/acadgild/word-count.txt /user/acadgild/hadoop
+hadoop fs -cat /user/acadgild/hadoop/word-count.txt
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitor orci tincidunt ullamcorper ultrices. Praesent vehicula aliquam metus et sagittis. Integer suscipit efficitur quam, ut fermentum turpis dignissim in. Vestibulum id elit eget ante tempus viverra quis et leo. Quisque nec blandit velit, ac pellentesque felis. Mauris quis eros eu ante interdum molestie ornare quis turpis. Vestibulum ut ipsum vitae dolor consequat faucibus non nec leo. Donec pellentesque tortor et odio aliquet, id aliquet massa ultricies. Curabitur lobortis quam et mauris maximus eleifend. Proin tempor elit quis faucibus gravida. Nulla bibendum in diam et dictum. Curabitur massa diam, congue non diam sed, porta malesuada tortor. Vestibulum commodo ligula nisi, interdum elementum velit auctor eu.
